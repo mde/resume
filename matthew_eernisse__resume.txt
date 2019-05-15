@@ -1,0 +1,172 @@
+Matthew D. Eernisse
+713-398-3106 (cell)
+mde@fleegix.org
+http://fleegix.org/
+http://twitter.com/mde
+http://github.com/mde
+
+WRITING
+
+Author, "CouchDB in Action"
+Book, Manning (in progress)
+http://www.manning.com/eernisse/
+
+Author, "Build Your Own Ajax Web Applications"
+Book, SitePoint, May 2006
+http://www.sitepoint.com/books/ajax1/
+
+Writer, "A Simpler Ajax Path"
+Article, O'Reilly Network's OnLAMP.com, May 2005
+http://www.onlamp.com/pub/a/onlamp/2005/05/19/xmlhttprequest.html
+
+Consulting editor, Universal Principals of Design
+Book, Rockport Publishers, 2003
+http://www.stuffcreators.com/upod/
+
+OPEN SOURCE PARTICIPATION
+
+* Windmill testing framework (http://www.getwindmill.com/)
+    -- committer (JS test engine)
+* Chandler Server (http://chandlerproject.org/) -- committer
+* Dojo JavaScript Toolkit (http://dojotoolkit.org/) -- contributor
+  (datetime utilities, Olson zoneinfo parsing)
+* Strophe.js XMPP client lib (http://code.stanziq.com/strophe/)
+    -- contributor
+* Fleegix JavaScript Toolkit (http://js.fleegix.org/) -- creator
+* Merb (http://merbivore.com/) -- contributor
+
+WORK EXPERIENCE
+
+Slide
+
+Developer (2009-present)
+Front-end and mid-tier work on social applications and games
+in JavaScript, Python, and ActionScript -- including reusable
+UI components in Flash. Built a Flash automation framework to
+integrate with existing Windmill infrastructure.
+
+Seesmic
+
+Web Developer (2008-2009)
+Built the REST API used by both third-party developers
+and internal client apps -- written in Ruby using the Merb
+Web framework, wrapping an internal, ad hoc Java API. Lead
+development on the Ajax Web UI, built in JavaScript and Ruby.
+
+Open Source Applications Foundation
+
+Web UI Developer (2005-2008)
+Designed and developed the Web UI for Chandler Server (AKA
+"Cosmo") calendaring server. The Web UI is a single-page Web
+app built with client-side JavaScript/CSS/DOM code. The backend
+of the app is Java (JSP/Spring/Hibernate).
+
+Core committer on the Windmill Web application testing
+framework. Wrote the JavaScript testing framework,
+a JSUnit-compatible framework for running client-side,
+pure-JavaScript tests on Ajax applications.
+
+Eduneering, Inc./KnowledgeWire, LLC
+
+Web Application Developer (2000-2005)
+Designed and developed Web-based administrative tools for
+the KnowledgeWire and ComplianceWire Web applications. These
+are enterprise-class learning management systems (LMSs)
+built in JavaScript/CSS/DOM, ASP/ASP.Net (VBScript/C#), and
+MS SQL Server. Also developed internal Web apps in Ruby/PHP
+and PostgreSQL.
+
+Web Content Producer (1998-2000)
+Designed and developed interactive, Web-based instruction,
+including content development, HTML coding, graphics,
+multimedia, server-side VBScript and client-side JavaScript
+code.
+
+NGG USA, Inc.
+
+Communications and Media (1996-1998)
+Exchange-study programs between sister schools and cities
+in Japan and the United States.  Also worked with document
+translation and interpreting from English to Japanese and
+from Japanese to English. Transitioned NGG from fax-based
+communication to e-mail, and built NGG's first Web
+site. Launched a localization and translation business.
+
+Japan Exchange and Teaching (JET) Program
+
+Assistant Language Teacher (1992-1995)
+Japanese-government-sponsored program for teaching English
+in Japan, in the public school system -- I lived in Japan, and
+taught English and developed curriculum for English learning at
+the junior high school level.
+
+SKILLS
+
+    * JavaScript (cross-browser JS/DOM/CSS)
+    * Dynamic languages -- Ruby, Python, PHP
+    * CSS
+    * Rails, Merb, Sinatra; other Web frameworks (Django,
+      Pylons)
+    * JavaScript toolkits -- JQuery, YUI, Dojo, Prototype
+      MooTools, etc.
+    * UI design, usability, accessibility
+    * REST, Web services in JSON/JSONP/XML, etc.
+    * ActionScript (AS3)
+    * vi/vim
+    * Adobe Photoshop, GIMP
+    * SQL (PostgreSQL MySQL, MSSQL)
+    * RCS -- Git, Subversion, CVS, etc.
+    * Unixy OS (Ubuntu/Debian, Gentoo, Red Hat/CentOS,
+      Mac OS X, etc.)
+    * HTTP servers -- Nginx, Apache, IIS
+    * Memcache
+    * NoSQL datastores (CouchDB, Redis)
+    * Server-side JS (Narwhal, NodeJS)
+    * SMTP/IMAP/POP -- Postfix, Sendmail, Courier
+    * Basic *nix command-line utilities -- grep, awk, sed,
+      cron, rsync, etc.
+
+EDUCATION
+
+M.Ed in Instructional Technology (1997-2002)
+Completed M.Ed. in Curriculum and Instruction: Instructional
+Technology with a 3.8 GPA at the University of Houston.
+
+B.A., English Literature / Biology Minor (1987-1992)
+Attended University of Houston on a National Merit full
+scholarship. Graduated cum laude with a B.A. in English
+Literature and a minor in Biology, with membership in the
+University Honors Program (now the Honors College).
+
+PERSONAL
+
+Languages
+Native English speaker. I speak Japanese as a second language.
+
+Music
+Interested in a lot of different music genres including rock,
+jazz, world music, ambient groove, triphop, and even Japanese
+enka, a genre most people describe as being sort of like
+Japanese country music. I play drums well, and a lot of other
+instruments badly.
+
+Streamcasting
+Since 2000, I have been running a Webcast radio station,
+EpiphanyRadio (epiphanyradio.org) -- an MP3 stream at 128Kbps
+which plays mostly downtempo groove music by independent
+artists.
+
+Travel
+Countries I've been to include Japan, Thailand, Korea, Hong
+Kong, Macau, Indonesia, Cambodia, Vietnam, China, Nepal, India,
+Holland, Belgium, and Kenya.
+
+Reading
+I read a wide range of things including literature, philosophy,
+physics, new media, science fiction, and books on software
+engineering and programming.
+
+Family
+My wife is named Masako. We have three boys: Hiromasa, Akira,
+and Yoshiki.
+

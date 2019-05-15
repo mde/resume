@@ -1,0 +1,21 @@
+Dear sir or madam:
+
+I am interested in applying for the XXXX position you have posted in the jobs section of your site.
+
+I have a lot of experience designing and building dynamic Web applications and UIs using Ajax technologies (i.e., JavaScript/DOM/CSS) with Ruby, PHP, and ASP. I have written a book on the subject (Build Your Own Ajax Web Applications, SitePoint, 2005). I have also worked with databases like PostgreSQL, MySQL, and MSSQL quite a bit, including procedures/functions in TSQL and PL/PgSQL.
+
+I have a fair bit of knowledge of usability and design, and contributed to the book 'Universal Principles of Design' (Rockport Publishers) as a consulting technical editor.
+
+Please find attached my resume in plaintext and PDF format. I currently reside in Houston, Texas, and am primarily interested in working remotely -- but I would be willing to consider relocating, depending on the circumstance.
+
+Thanks very much for your consideration.
+
+
+Best regards,
+
+Matthew Eernisse
+mde@fleegix.org
+http://fleegix.org/
+http://twitter.com/mde
+281-741-3310
+
