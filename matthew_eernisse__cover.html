@@ -2,47 +2,158 @@
   <head>
     <style type="text/css">
         * {
-          font-family: Avenir, Nunito, sans-serif;
+          font-family: Avenir, sans-serif;
+          box-sizing: border-box;
+          font-size: 1em;
         }
         body {
-          margin: 3em;
+          max-width: 44em;
+          margin: 2.5em;
         }
         h1 {
-          font-family: MinionPro-BoldCapt, serif;
-          font-size: 3em;
+          font-family: "Goudy Old Style", serif;
+          font-size: 2.5em;
+          line-height: 1em;
+          margin: 0;
         }
         h2 {
-          font-family: MinionPro-SemiboldSubh, serif;
+          font-family: "Goudy Old Style", serif;
+          border-bottom: 1px solid #ddd;
+          line-height: 1.4em;
+          margin: 0.3em 0 0 0;
+          font-size: 1.4em;
         }
-        span.icon {
+        h3 {
+          font-family: AvenirLTStd-Roman, sans-serif;
+          margin: 0;
+          color: #000;
+          font-size: 0.8em;
+          font-weight: normal;
+        }
+        h4 {
+          font-family: AvenirLTStd-Roman, sans-serif;
+          margin: 0;
+          color: #aaa;
+          font-size: 0.8em;
+          font-weight: normal;
+        }
+        header {
+          display: flex;
+          justify-content: space-between;
+        }
+        footer {
+          border-bottom: 1px solid #ddd;
+        }
+        aside {
+          font-size: 0.8em;
+          text-align: right;
+        }
+        aside div {
+          margin-bottom: 0.2em;
+        }
+        main {
+          margin: -1em 0 0 0;
+        }
+        p {
+          font-size: 0.9em;
+          line-height: 1.5em;
+          margin-bottom: 0;
+        }
+        .main-title h4 {
+          font-size: 1em;
+          margin-top: 0.2em;
+        }
+        .subsection-header {
+          margin-top: 0.7em;
+        }
+        .main-sections {
+          min-height: 44em;
+          display: flex;
+          justify-content: space-between;
+        }
+        .document-header {
+          padding-bottom: 9em;
+          border-bottom: 1px solid #ddd;
+          margin-bottom: 2em;
+        }
+        .sidebar {
+          width: 80em;
+        }
+        .sidebar h2 {
+          border: 0;
+          margin: 1em 0 0 0;
+          font-size: 1.1em;
+        }
+        .sidebar .subsection-header {
+          margin-top: 0.7em;
+        }
+        .sidebar p {
+          margin-top: 0.3em;
+          margin-right: 1.5em;
         }
     </style>
   </head>
   <body>
-    <header>
-      <h1>
-        Matthew Eernisse
-      </h1>
+    <header class="document-header">
+      <div class="main-title">
+        <h1>
+          Matthew Eernisse
+        </h1>
+      </div>
       <aside>
         <div>
-          <span class="icon">
-            <img src="fontawesome-free-5.8.2-desktop/svgs/solid/map-marker-alt.svg"/>
-          </span>
-          San Francisco, California
+          1065 Grand Teton Dr.
+        </div>
+        <div>
+          Pacifica, CA 94044
+        </div>
+        <div>
+          713-398-3106
+        </div>
+        <div>
+          mde@fleegix.org
         </div>
       </aside>
     </header>
     <main>
-      <section>
-        <h2>Summary</h2>
-      </section>
-      <section>
-        <h2>Experience</h2>
-      </section>
-      <section>
-        <h2>Education</h2>
-      </section>
-
+      <div class="main-sections">
+        <div class="sidebar">
+          <section class="company">
+            <h2>ForgeRock</h2>
+            <p>
+              201 Mission St, Suite 2900
+            </p>
+            <p>
+              San Francisco, CA 94105
+            </p>
+          </section>
+        </div>
+        <section class="letter-body">
+          <p>
+            Dear sir or madam:
+          </p>
+          <p>
+            I am excited to be applying for the Distinguished Software Engineer position at ForgeRock. I believe my experience with growing engineering organizations from the early stages onward would be a significant asset to your team, and I would relish an opportunity to work across the entire stack, with a diverse population of engineers who aren't afraid to be themselves.
+          </p>
+          <p>
+            I am comfortable interacting with C-level execs, and have managed both engineers and engineering managers. I have worked as an individual contributor up and down the stack, building frontends in HTML/CSS/Javascript, and backends in JavaScript/Ruby/Python/C#. I am well-versed in foundational technologies such as AWS, Linux, Git, containers, RDBMSs. My entire career has been centered on solving practical problems for end-users, always with an eye toward always learning something new.
+          </p>
+          <p>
+            Thank you sincerely for your time and consideration. I’m looking very much forward to hearing more about the Distinguished Software Engineer position, and about ForgeRock.
+          </p>
+          <p>
+            &nbsp;
+          </p>
+          <p>
+            Best regards,
+          </p>
+          <p>
+            MDE
+          </p>
+        </section>
+      </div>
+      <footer>
+      </footer>
     </main>
   </body>
 </html>
