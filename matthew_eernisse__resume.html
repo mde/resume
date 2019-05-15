@@ -1,445 +1,496 @@
-<!DOCTYPE html>
 <html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>
-      Resume for Matthew Eernisse
-    </title>
+  <head>
     <style type="text/css">
-      body {
-        padding: 1em;
-        width: 40em;
-        font-family: "Lucida Grande", "Verdana", sans-serif;
-      }
-      a {
-        color: #55c;
-      }
-      h1,h2,h3,h4 {
-        padding: 0;
-      }
-      h1 {
-        margin: 0 0 0.2em 0;
-      }
-      h2 {
-        margin: 0 0 0.4em 0;
-      }
-      h3,h4 {
-        color: #222;
-        font-size: 100%;
-        margin: 0;
-      }
-      h4 {
-        font-weight: normal;
-      }
-      ul,dl,p,dd {
-        margin: 0 0 0.8em 0;
-      }
-      hr {
-        border: 0px;
-        height: 1px;
-        background-color: #ccc;
-        color: #ccc;
-        font-size: 0px;
-        line-height: 1px;
-        margin: 0 0 8px;
-      }
-      section {
-        display: block;
-        padding: 0;
-        margin: 0;
-      }
-      header {
-        text-align: center;
-      }
-      header ul {
-        font-size: 90%;
-        list-style: none;
-        color: #666;
-      }
-      dt {
-        color: #222;
-        font-weight: bold;
-        margin-bottom: 0.2em;
-      }
-      #open_source ul {
-        padding: 0;
-        list-style: none;
-      }
-      #open_source li {
-        margin-left: 0;
-        margin-bottom: 0.2em;
-      }
-      #work h3 {
-        font-size: 90%;
-        color: #666;
-        font-style: italic;
-      }
+        * {
+          font-family: Avenir, sans-serif;
+          box-sizing: border-box;
+          font-size: 1em;
+        }
+        body {
+          max-width: 44em;
+          margin: 2.5em;
+        }
+        h1 {
+          font-family: "Goudy Old Style", serif;
+          font-size: 2.5em;
+          line-height: 1em;
+          margin: 0;
+        }
+        h2 {
+          font-family: "Goudy Old Style", serif;
+          border-bottom: 1px solid #ddd;
+          line-height: 1.4em;
+          margin: 0.3em 0 0 0;
+          font-size: 1.4em;
+        }
+        h3 {
+          font-family: AvenirLTStd-Roman, sans-serif;
+          margin: 0;
+          color: #000;
+          font-size: 0.8em;
+          font-weight: normal;
+        }
+        h4 {
+          font-family: AvenirLTStd-Roman, sans-serif;
+          margin: 0;
+          color: #aaa;
+          font-size: 0.8em;
+          font-weight: normal;
+        }
+        header {
+          display: flex;
+          justify-content: space-between;
+        }
+        footer {
+          margin-top: 1.3em;
+          border-bottom: 1px solid #ddd;
+        }
+        aside {
+          font-size: 0.6em;
+        }
+        main {
+          margin: -1em 0 0 0;
+        }
+        ul, p {
+          font-size: 0.73em;
+          line-height: 1.5em;
+        }
+        p {
+          margin-bottom: 0;
+        }
+        ul {
+          margin: 0;
+        }
+        .main-title h4 {
+          font-size: 1em;
+          margin-top: 0.2em;
+        }
+        span.icon {
+          display: inline-block;
+          width: 0.6em;
+          margin-right: 0.2em;
+        }
+        .subsection-header {
+          margin-top: 0.7em;
+        }
+        .tenure {
+          font-family: AvenirLTStd-Roman, sans-serif;
+          font-size: 0.8em;
+          color: #aaa;
+        }
+        .main-sections {
+          display: flex;
+          justify-content: space-between;
+        }
+        .secondary-sections {
+          padding-top: 2em;
+        }
+        .experience {
+          margin-right: 1.5em;
+        }
+        .sidebar {
+          width: 28em;
+        }
+        .sidebar h2 {
+          border: 0;
+          margin: 1em 0 -0.3em 0;
+          font-size: 1.1em;
+        }
+        .sidebar .subsection-header {
+          margin-top: 0.7em;
+        }
+        .sidebar p {
+          margin-top: 0.3em;
+        }
+        @media print {
+          footer {page-break-after: always;}
+        }
     </style>
   </head>
   <body>
     <header>
-      <h1>
-        Matthew D. Eernisse
-      </h1>
-      <address>
-        <ul>
-          <li class="email">
-            <a href="mailto:mde@fleegix.org">
-              mde@fleegix.org
-            </a>
-          </li>
-          <li class="url">
-            <a href="http://fleegix.org/">
-              http://fleegix.org/
-            </a>
-          </li>
-          <li class="url">
-            <a href="http://twitter.com/mde">
-              http://twitter.com/mde
-            </a>
-          </li>
-          <li class="phone">
-            281-741-3310 (home)
-          </li>
-          <li class="phone">
-            713-398-3106 (cell)
-          </li>
-        </ul>
-      </address>
+      <div class="main-title">
+        <h1>
+          Matthew Eernisse
+        </h1>
+        <h4>
+          Software Engineer, Engineering Manager
+        </h4>
+      </div>
+      <aside>
+        <div>
+          <span class="icon">
+            <img src="fontawesome-free-5.8.2-desktop/svgs/solid/map-marker-alt.svg"/>
+          </span>
+          San Francisco, California
+        </div>
+        <div>
+          <span class="icon">
+            <img src="fontawesome-free-5.8.2-desktop/svgs/solid/phone.svg"/>
+          </span>
+          713-398-3106
+        </div>
+        <div>
+          <span class="icon">
+            <img src="fontawesome-free-5.8.2-desktop/svgs/solid/envelope.svg"/>
+          </span>
+          mde@fleegix.org
+        </div>
+        <div>
+          <span class="icon">
+            <img src="fontawesome-free-5.8.2-desktop/svgs/brands/twitter.svg"/>
+          </span>
+          https://twitter.com/mde
+        </div>
+        <div>
+          <span class="icon">
+            <img src="fontawesome-free-5.8.2-desktop/svgs/brands/linkedin.svg"/>
+          </span>
+          https://www.linkedin.com/in/meernisse/
+        </div>
+        <div>
+          <span class="icon">
+            <img src="fontawesome-free-5.8.2-desktop/svgs/brands/github.svg"/>
+          </span>
+          https://github.com/mde
+        </div>
+      </aside>
     </header>
-    <hr/>
-    <section id="writing">
-      <h2>
-        Writing
-      </h2>
-      <dl>
-        <dt>
-          Author, <cite>Build Your Own Ajax Web Applications</cite>
-        </dt>
-        <dd>
-          <h3>
-            Book, SitePoint, May 2006
-          </h3>
-          <h4>
-            <a href="http://www.sitepoint.com/books/ajax1/">
-              http://www.sitepoint.com/books/ajax1/
-            </a>
-          </h4>
-          <p>
-            Step-by-step guide to building Ajax Web applications with
-            JavaScript/DOM/CSS. Heavy focus on usability and accessibility,
-            with copious code examples.
-          </p>
-        </dd>
-        <dt>
-          Writer, <cite>A Simpler Ajax Path</cite>
-        </dt>
-        <dd>
-          <h3>
-            Article, O'Reilly Network's OnLAMP.com, May 2005
-          </h3>
-          <h4>
-            <a href="http://www.onlamp.com/pub/a/onlamp/2005/05/19/xmlhttprequest.html">
-              http://www.onlamp.com/pub/a/onlamp/2005/05/19/xmlhttprequest.html
-            </a>
-          </h4>
-          <p>
-            Provides a step-by-step tutorial on using XMLHttpRequest &#8212;
-            one of the first articles on O'Reilly to use the term "Ajax."
-          </p>
-        </dd>
-        <dt>
-          Consulting editor, <cite>Universal Principals of Design</cite>
-        </dt>
-        <dd>
-          <h3>
-            Book, Rockport Publishers, 2003
-          </h3>
-          <h4>
-            <a href="http://www.stuffcreators.com/upod/">
-              http://www.stuffcreators.com/upod/
-            </a>
-          </h4>
-          <p>
-            Reference which takes a research-based approach to explaining
-            100 fundamental design principles. Includes specific examples
-            for each principle from varied design disciplines.
-          </p>
-        </dd>
-      </dl>
-    </section>
-    <hr/>
-    <section id="open_source">
-      <h2>
-        Open Source Participation
-      </h2>
-      <ul>
-        <li>
-          Windmill testing framework (<a
-          href="http://www.getwindmill.com/">
-            http://www.getwindmill.com/</a>)  &#8212; committer
-        </li>
-        <li>
-          Chandler Server (<a
-          href="">http://chandlerproject.org/</a>) &#8212; committer
-        </li>
-        <li>
-          Dojo JavaScript Toolkit (<a
-          href="http://dojotoolkit.org/">http://dojotoolkit.org/</a>) &#8212;
-          contributor
-        </li>
-        <li>
-          Merb (<a
-          href="http://merbivore.com/">http://merbivore.com/</a>)
-          &#8212; contributor
-        </li>
-        <li>
-          Strophe.js XMPP client lib (<a
-          href="http://code.stanziq.com/strophe/">http://code.stanziq.com/strophe/</a>)
-              &#8212; contributor
-        </li>
-        <li>
-          Fleegix JavaScript Toolkit (<a
-          href="http://js.fleegix.org/">http://js.fleegix.org/</a>)
-          &#8212; creator
-        </li>
-      </ul>
-    </section>
-    <hr/>
-    <section id="work">
-      <h2>
-        Work Experience
-      </h2>
-      <dl>
-        <dt>
-          State Twenty-Six Technologies, LLC
-        </dt>
-        <dd>
-          <p>
-            Various freelance work (2002-present)
-          </p>
-        </dd>
-        <dt>
-          Seesmic
-        </dt>
-        <dd>
-          <h3>
-            Lead Web Developer (2008-present)
-          </h3>
-          <p>
-            Built the REST API used by both third-party developers and
-            internal client apps &#8212; written in Ruby using the Merb
-            MVC framework. Lead development on the Ajax Web UI, built in
-            JavaScript and Ruby.
-          </p>
-        </dd>
-        <dt>
-          Open Source Applications Foundation
-        </dt>
-        <dd>
-          <h3>
-            Lead Web UI Developer (2005-2008)
-          </h3>
-          <p>
-            Designed and developed the Web UI for Chandler Server (AKA
-            "Cosmo") calendaring server. The Web UI is a single-page Web
-            app built with client-side JavaScript/CSS/DOM code. The backend
-            of the app is Java (JSP/Spring/Hibernate).
-          </p>
-          <p>
-            Core committer on the Windmill Web application testing
-            framework. Wrote the JavaScript testing framework,
-            a JSUnit-compatible framework for running client-side,
-            pure-JavaScript tests on Ajax applications.
-          </p>
-        </dd>
-        <dt>
-          Eduneering, Inc. / KnowledgeWire, LLC
-        </dt>
-        <dd>
-          <h3>
-            Web Application Developer / Senior Web Application Developer
-            (2000-2005)
-          </h3>
-          <p>
-            Designed and developed Web-based administrative tools for
-            the KnowledgeWire and ComplianceWire Web applications. These
-            are enterprise-class learning management systems (LMSs)
-            built in JavaScript/CSS/DOM, ASP/ASP.Net (VBScript/C#), and
-            MS SQL Server. Also developed internal Web apps in Ruby/PHP
-            and PostgreSQL.
-          </p>
-          <h3>
-            Web Content Producer (1998-2000)
-          </h3>
-          <p>
-            Designed and developed interactive, Web-based instruction,
-            including content development, HTML coding, graphics,
-            multimedia, server-side VBScript and client-side JavaScript
-            code.
-          </p>
-        </dd>
-        <dt>
-          NGG USA, Inc.
-        </dt>
-        <dd>
-          <h3>
-            Communications and Media (1996-1998)
-          </h3>
-          <p>
-            Exchange-study programs between sister schools and cities
-            in Japan and the United States.  Also worked with document
-            translation and interpreting from English to Japanese and
-            from Japanese to English. Transitioned NGG from fax-based
-            communication to e-mail, and built NGG's first Web
-            site. Launched a localization and translation business.
-          </p>
-        </dd>
-        <dt>
-          Japan Exchange and Teaching (JET) Program
-        </dt>
-        <dd>
-          <h3>
-            Assistant Language Teacher (1992-1995)
-          </h3>
-          <p>
-            Japanese-government-sponsored program for teaching English
-            in Japan, in the public school system &#8212; I lived in Japan, and
-            taught English and developed curriculum for English learning at
-            the junior high school level.
-          </p>
-        </dd>
-      </dl>
-    </section>
-    <hr/>
-    <section id="education">
-      <h2>
-        Education
-      </h2>
-      <dl>
-        <dt>
-          M.Ed in Instructional Technology (1997-2002)
-        </dt>
-        <dd>
-          Completed M.Ed. in Curriculum and Instruction: Instructional
-          Technology with a 3.8 GPA at the University of Houston.
-        </dd>
-        <dt>
-          B.A., English Literature / Biology Minor (1987-1992)
-        </dt>
-        <dd>
-          Attended University of Houston on a National Merit full
-          scholarship. Graduated cum laude with a B.A. in English
-          Literature and a minor in Biology, with membership in the
-          University Honors Program (now the Honors College).
-        </dd>
-      </dl>
-    </section>
-    <hr/>
-    <section id="skills">
-      <h2>
-        Skills
-      </h2>
-      <p>
-        In descending order of expertise:
-      </p>
-      <dl>
-        <dt>
-          Best
-        </dt>
-        <dd>
-          <ul>
-            <li>Cross-browser JavaScript/CSS/DOM (Ajax)</li>
-            <li>Dynamic languages &#8212; JS, Ruby, Python, PHP</li>
-            <li>CSS</li>
-            <li>Rails, Merb, Sinatra; other Web frameworks (Django,
-              Pylons, CakePHP, CodeIgniter)</li>
-            <li>JavaScript toolkits &#8212; JQuery, YUI, Dojo, Prototype
-              MooTools, etc.</li>
-            <li>UI design, usability, accessibility</li>
-            <li>REST, Web services in JSON/JSONP/XML, etc.</li>
-          </ul>
-        </dd>
-        <dt>
-          Better
-        </dt>
-        <dd>
-          <ul>
-            <li>Adobe Photoshop, GIMP</li>
-            <li>vi/vim</li>
-            <li>SQL (PostgreSQL MySQL, MSSQL); DB admin, backup
-              replication, server-side procedures (TSQL, PL/PGSQL)</li>
-            <li>Source control &#8212; Git, Subversion, Darcs, CVS, etc.</li>
-          </ul>
-        </dd>
-        <dt>
-          Good
-        </dt>
-        <dd>
-          <ul>
-            <li>Linux admin (Ubuntu/Debian, Gentoo, Red Hat/CentOS,
-                etc.</li>
-            <li>HTTP servers &#8212; Nginx, Apache, IIS</li>
-            <li>SMTP/IMAP/POP &#8212; Postfix, Sendmail, Courier</li>
-            <li>Basic *nix command-line utilities &#8212; grep,
-                awk, sed, cron, rsync, etc.</li>
-          </ul>
-        </dd>
-      </dl>
-    </section>
-    <hr/>
-    <section id="personal">
-      <h2>
-        Personal
-      </h2>
-      <h3>
-        Languages
-      </h3>
-      <p>
-        Native English speaker. I speak Japanese as a second language
-        comfortably (and read and write at intermediate level).
-      </p>
-      <h3>
-        Music
-      </h3>
-      <p>
-        Interested in a wide variety of music genres including
-        rock, jazz, world music, ambient groove, triphop, and even
-        Japanese enka, a genre most people describe as being sort
-        of like Japanese country music.
-      </p>
-      <h3>
-        Streamcasting
-      </h3>
-      <p>
-        Since 2000, I have been running a Webcast radio station,
-        EpiphanyRadio (epiphanyradio.org) &#8212; an MP3 stream at 128Kbps
-        which plays mostly downtempo groove music by independent
-        artists.
-      </p>
-      <h3>
-        Travel
-      </h3>
-      <p>
-        Countries I've visited include Japan, Thailand, Korea, Hong
-        Kong, Macau, Indonesia, Cambodia, Vietnam, China, Nepal, India,
-        Holland, and Kenya.
-      </p>
-      <h3>
-        Reading
-      </h3>
-      <p>
-        I read a wide range of subject matter including literature,
-        philosophy, physics, new media, science fiction, and books on
-        software engineering and programming.
-      </p>
-      <h3>
-        Family
-      </h3>
-      <p>
-        My wife, who is Japanese, is named Masako. We have three boys:
-        Hiromasa, Akira, and Yoshiki.
-      </p>
-    </section>
+    <main>
+      <section class="summary">
+        <h2>Summary</h2>
+        <p>
+          I have been building interactive Web applications for over 20 years. I have written a book on JavaScript development, presented at technical conferences worldwide, and am still heavily involved in open source (as author and maintainer of the EJS templating language for JavaScript). I have worked at larger companies and smaller startups, and have a broad range of experience and expertise — from engineering management, to hands-on engineering work, to interface design and HCI. I have worked as an individual contributor and team-lead, and have built and managed teams of both technical and creative people.
+          I am always looking for the chance to learn something new. My ideal position would be working on a product that improves the lives of real people.
+        </p>
+      </section>
+      <div class="main-sections">
+        <section class="experience">
+          <h2>Experience</h2>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  Sr. Director, Product Engineering
+                </h3>
+                <h4>
+                  Eaze
+                </h4>
+              </div>
+              <div class="tenure">
+                March 2018 to April 2019
+              </div>
+            </header>
+            <ul>
+              <li>
+                Led a team of 20 engineers (frontend and backend), and managed and mentored both staff-level ICs and early-career engineering managers, with heavy focus on communication, negotiation with Product, and more accurate time-estimation.
+              </li>
+              <li>
+                Directed development of a Staging environment using AWS and Terraform.
+              </li>
+              <li>
+                Transitioned Engineering org to a formal on-call process using PagerDuty.
+              </li>
+              <li>
+                Prototyped end-to-end test system with TestCafe, and built a culture of testing — going from zero tests in CI to hundreds.
+              </li>
+              <li>
+                Implemented a formal QA-gated, scheduled release process, resulting in ~90% reduction in hotfixes to production.
+              </li>
+              <li>
+                Created support-engineering team and process to prevent off-the-books work.
+              </li>
+              <li>
+                Pushed successfully for creation of a task force for paying down technical debt.
+              </li>
+              <li>
+                Designed and implemented a consistent, repeatable hiring process based on explicit engineering values, and focusing heavily on diversity and candidate experience — with one-third of hires coming from underrepresented groups.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  VP of Engineering
+                </h3>
+                <h4>
+                  Zenefits
+                </h4>
+              </div>
+              <div class="tenure">
+                January 2016 to March 2018
+              </div>
+            </header>
+            <ul>
+              <li>
+                Built UI Engineering team from 1 engineer to 20 over the course of a year, directing the design and implementation of all UI elements across the entire suite of Zenefits products.
+              </li>
+              <li>
+                Managed technical and non-technical ICs, and both early- and mid-career managers.
+              </li>
+              <li>
+                Built an end-to-end testing framework with an API for invoking Ember UI tests from inside Django tests, using Python, NodeJS, Redis, Testem, QUnit.
+              </li>
+              <li>
+                Built a multiplexing event-forwarding service in NodeJS, sending events to AWS Kinesis, Sentry, SumoLogic, SignalFx, and Google Analytics.
+              </li>
+              <li>
+                Directed development of a suite of plug-and-play UI components and a styleguide with the Ember UI framework, for use by full-stack engineers doing product work.
+              </li>
+              <li>
+                Built a QA team from scratch, to 15 testers and QA engineers over the course of one year, resulting in over 90% reduction in hotfixes for QA'd code.
+              </li>
+              <li>
+                Designed and implemented a consistent, repeatable hiring process with heavy focus on diversity and candidate experience, with almost half of hires coming from underrepresented groups.
+              </li>
+              <li>
+                Took over management of the Design team, managing and hiring both early-career and senior designers, and implementing a consistent cross-team design process.
+              </li>
+              <li>
+                Supervised the rollout of a product-wide rebranding, including scoping, cross-department and cross-team coordination, and QA of the implementation.
+              </li>
+              <li>
+                Directed the development of a new React-based UI stack, and its deployment as part of a brand-new product (Performance Management).
+              </li>
+            </ul>
+          </section>
+        </section>
+        <div class="sidebar">
+          <section class="education"">
+            <h2>Education</h2>
+            <section>
+              <header class="subsection-header">
+                <div>
+                  <h3>
+                    M.Ed, Instructional Technology
+                  </h3>
+                  <h4>
+                    University of Houston, College of Education
+                  </h4>
+                </div>
+              </header>
+              <header class="subsection-header">
+                <div>
+                  <h3>
+                    B.A., English Literature, Minor in Biology (cum laude)
+                  </h3>
+                  <h4>
+                    University of Houston, Honors College
+                  </h4>
+                </div>
+              </header>
+            </section>
+          </section>
+          <section class="personal">
+            <h2>Personal</h2>
+            <section>
+              <header class="subsection-header">
+                <h4>
+                  Languages
+                </h4>
+              </header>
+              <p>
+                I spent three years right after college living in rural Japan. I speak Japanese fluently, and read and write at an intermediate level.
+              </p>
+            </section>
+            <section>
+              <header class="subsection-header">
+                <h4>
+                  Music
+                </h4>
+              </header>
+              <p>
+                Interested in a lot of different music genres including rock, jazz, electronic, and world music. I also sing lead vocals and play rhythm guitar for an 80s hair-metal tribute band called Hairstrike, that plays around the Bay Area.
+              </p>
+            </section>
+            <section>
+              <header class="subsection-header">
+                <h4>
+                  Travel
+                </h4>
+              </header>
+              <p>
+                I love to travel. Countries I've been to include Japan, Thailand, Korea, Hong Kong, Macau, Indonesia, Cambodia, Vietnam, China, Nepal, India, Holland, Belgium, France, Australia, Russia, and Kenya.
+              </p>
+            </section>
+          </section>
+        </div>
+      </div>
+      <footer>
+      </footer>
+      <!-- Page break -->
+      <div class="secondary-sections">
+        <section class="experience-contd">
+          <h2>Experience (cont'd)</h2>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  Director, Engineering
+                </h3>
+                <h4>
+                  Kimono Labs
+                </h4>
+              </div>
+              <div class="tenure">
+                May 2014 to October 2014
+              </div>
+            </header>
+            <ul>
+              <li>
+                Implemented formal build and test processes using NodeJS, Jake, Mocha.
+              </li>
+              <li>
+                Created schema and schema versioning for document data store in MongoDB.
+              </li>
+              <li>
+                Reduced Web scraper error rate by 80% (NodeJS, PhantomJS).
+              </li>
+              <li>
+                Implemented authentication for scrapers (NodeJS, PhantomJS).
+              </li>
+            </ul>
+          </section>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  Senior Software Development Engineer
+                </h3>
+                <h4>
+                  Microsoft
+                </h4>
+              </div>
+              <div class="tenure">
+                July 2012 to April 2014
+              </div>
+            </header>
+            <ul>
+              <li>
+                Integrated Exchange/OWA with Yammer messaging (Ruby/Rails).
+              </li>
+              <li>
+                Made major fixes to message counts across multiple clients (JavaScript).
+              </li>
+              <li>
+                Refactored Yammer desktop app to use current core client libraries (JavaScript, Adobe AIR).
+              </li>
+            </ul>
+          </section>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  Senior Software Engineer
+                </h3>
+                <h4>
+                  Yammer
+                </h4>
+              </div>
+              <div class="tenure">
+                July 2012 to April 2014
+              </div>
+            </header>
+            <ul>
+              <li>
+                Built and maintained the Message Publisher for the Yammer Web UI (JavaScript).
+              </li>
+              <li>
+                Lead engineering work on the Yammer Platform, including Log in With Yammer and Yammer Embed features, using JavaScript, Ruby/Rails, AS3, Adobe AIR.
+              </li>
+              <li>
+                Lead engineering work to build the File Upload backend service, based on very early versions of NodeJS (circa v0.2).
+              </li>
+              <li>
+                Contributed heavily to design and development of YamJS core JavaScript libraries (JavaScript, Ruby/Rails).
+              </li>
+              <li>
+                Contributed key work on the Direct Messages feature for the Yammer Web UI (JavaScript).
+              </li>
+            </ul>
+          </section>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  Senior Software Engineer
+                </h3>
+                <h4>
+                  Slide
+                </h4>
+              </div>
+              <div class="tenure">
+                May 2009 to March 2010
+              </div>
+            </header>
+            <ul>
+              <li>
+                Worked on Facebook social Web apps SuperPoke and TopFriends, in JavaScript and Python.
+              </li>
+              <li>
+                Worked on Facebook game SuperPocus, in AS3 and Python.
+              </li>
+              <li>
+                Built FlexPilot library in AS3 for automating testing of Flash/Flex frontends.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  Web Developer
+                </h3>
+                <h4>
+                  Seesmic
+                </h4>
+              </div>
+              <div class="tenure">
+                January 2008 to March 2009
+              </div>
+            </header>
+            <ul>
+              <li>
+                Converted Flash frontend to HTML/CSS/JavaScript Web UI.
+              </li>
+              <li>
+                Built RESTful service in Ruby to wrap an ad-hoc Java-based Web API.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <header class="subsection-header">
+              <div>
+                <h3>
+                  Lead Web UI Developer
+                </h3>
+                <h4>
+                  Open Source Applications Foundation
+                </h4>
+              </div>
+              <div class="tenure">
+                July 2005 to January 2008
+              </div>
+            </header>
+            <ul>
+              <li>
+                Built Chandler Web UI, a calendaring app, using JavaScript and Java (Maven, Tomcat, Struts/Tiles, Hibernate).
+              </li>
+              <li>
+                Wrote a Zoneinfo timezone-enabled Date library for JavaScript.
+              </li>
+              <li>
+                Contributed heavily to the Dojo Toolkit, an early JavaScript UI framework.
+              </li>
+            </ul>
+          </section>
+        </section>
+      </div>
+      <footer>
+      </footer>
+    </main>
   </body>
 </html>
+
+
